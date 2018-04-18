@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DTV Test Automation Test Suit]">
+  <listeners>
+    <listener class-name="com.hybridFramework.util.Listener"/>
+    <listener class-name="com.hybridFramework.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.hybridFramework.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="DTV Page Test Cases(failed)">
+    <classes>
+      <class name="com.hybridFramework.testcases.TvShowTest">
+        <methods>
+          <include name="verifyTitleTest"/>
+          <include name="teardown"/>
+          <include name="showtvTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.hybridFramework.testcases.TvShowTest -->
+      <class name="com.hybridFramework.testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginpageTitleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.hybridFramework.testcases.LoginTest -->
+    </classes>
+  </test> <!-- DTV Page Test Cases(failed) -->
+</suite> <!-- Failed suite [DTV Test Automation Test Suit] -->

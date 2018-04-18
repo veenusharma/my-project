@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DTV Test Automation Test Suit">
+<listeners>
+<listener class-name="com.hybridFramework.util.Listener"></listener>
+<listener class-name="com.hybridFramework.ExtentReportListener.ExtentReporterNG"></listener>
+<listener class-name="com.hybridFramework.ExtentReportListener.ExtentReporterNG"></listener>
+</listeners>
+  <test thread-count="5" name="DTV Page Test Cases">
+    <classes>
+      <class name="com.hybridFramework.testcases.LoginTest"/>
+      <class name="com.hybridFramework.testcases.mhovermovieTest"/>
+      <class name="com.hybridFramework.testcases.TvShowTest"/>
+      <class name="com.hybridFramework.testcases.SportsTest"/>
+      <class name="com.hybridFramework.testcases.Kidstest"/>
+      
+    </classes>
+  </test> <!-- DTV Page Test Cases -->
+</suite> <!-- DTV Test Automation Test Suit -->
