@@ -4,7 +4,7 @@
 <listeners>
 <listener class-name="com.hybridFramework.util.Listener"></listener>
 <listener class-name="com.hybridFramework.ExtentReportListener.ExtentReporterNG"></listener>
-<listener class-name="com.hybridFramework.ExtentReportListener.ExtentReporterNG"></listener>
+
 </listeners>
   <test thread-count="5" name="DTV Page Test Cases">
     <classes>
